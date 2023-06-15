@@ -1,20 +1,19 @@
-#include <stdio.h>
-#include <conio.h>
+#include<stdio.h>
+#include<conio.h>
 
-#define PA printf ("++++++++++++++++++++++++++++++++++++++++++\n") ;
-
-void main()
-{
-    float 
-    PA
-    printf ("Program Area Shape\n") ;
-    PA
-    printf ("Input Widhts :") ;
-    scanf("%f",&widths);
-    printf ("Input Longs :") ;
-    scanf("%f",&longs);
-    area_square = widths * longs ;
-    printf ("Square Area = %.2f\n", area_square) ;
+#define wow printf("+++++++++++++++++++++++++++++\n");
+void main(){
+ char name[50];
+ int price_begin;
+ int sale;
+wow
+printf("Enter Product name :");
+scanf("%s" , &name );
+wow
+printf("Enter Price begin : ");
+scanf("%d" , &price_begin);
+wow
+sale = price_begin +  (price_begin * 10/100);
+printf(" Price for sale %d Bath.\n", sale );
     
-    PA
-    getch ();
+}
